@@ -9,7 +9,9 @@ from tqdm import tqdm
 # --- 配置区 ---
 TARGET_URLS = [
     "https://www.vector.co.jp/vpack/filearea/winnt/game/avg/",
-    "https://www.vector.co.jp/vpack/filearea/win95/game/avg/"
+    "https://www.vector.co.jp/vpack/filearea/win95/game/avg/",
+    "https://www.vector.co.jp/vpack/filearea/win95/amuse/novel/",
+    "https://www.vector.co.jp/vpack/filearea/win95/amuse/vbook/"
 ]
 DOWNLOAD_DIR = "vector_games"
 FAILED_LOG_FILE = "failed_downloads.log"
